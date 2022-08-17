@@ -1,0 +1,21 @@
+{
+  "name": "wizeline-academy-baz-nodejs-course",
+  "version": "1.0.0",
+  "description": "Repositorio que contiene todos los recursos utilizados en el curso de NodeJS para BAZ e impartido por Wizeline Academy",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "keywords": [
+    "baz",
+    "academy",
+    "nodejs"
+  ],
+  "author": "Wizeline Academy",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
