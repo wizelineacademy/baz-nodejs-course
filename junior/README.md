@@ -18,14 +18,19 @@ Este curso contempla los aspectos básicos que se deben conocer sobre el entorno
       3. Diferencias
 4. [Manipulación de archivos](modulo_04/README.md)
    1. CRUD
-5. Promesas
-6. Funciones asíncronas
-7. Module System
-8. Emisores y buffer de eventos
-9. REST
+5. [Funciones síncronas y asíncronas](modulo_05/README.md)
+   1. Funciones síncronas
+   2. Promesas
+      1. Promesa simple
+      2. Promesa con retorno fallido
+      3. Encadenamiento de promesas
+   3. Funciones asíncronas
+6. Module System
+7. Emisores y buffer de eventos
+8. REST
 
 ## :clipboard: Recursos externos
 
 - Presentación
 
-## Capstone Project
+## Capston1e Project
