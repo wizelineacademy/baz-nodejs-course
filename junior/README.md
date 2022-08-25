@@ -10,17 +10,18 @@ Este curso contempla los aspectos básicos que se deben conocer sobre el entorno
 2. [Configuración Inicial](modulo_02/README.md)
    1. Instalación
    2. Hola Mundo
-3. Node Shell
-4. Gestores de paquetes
-   1. NPM
-   2. YARN
-   3. Diferencias
-5. Manipulación de archivos
-6. Promesas
-7. Funciones asíncronas
-8. Module System
-9. Emisores y buffer de eventos
-10. REST
+3. [Node Shell y Gestor de paquetes](modulo_03/README.md)
+   1. Node Shell
+   2. Gestores de paquetes
+      1. NPM
+      2. YARN
+      3. Diferencias
+4. Manipulación de archivos
+5. Promesas
+6. Funciones asíncronas
+7. Module System
+8.  Emisores y buffer de eventos
+9.  REST
 
 ## :clipboard: Recursos externos
 

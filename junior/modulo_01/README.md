@@ -2,7 +2,8 @@
 
 ## :book: Objetivo
 
-Conocer el entorno de ejecución NodeJS y como funciona.
+- Definir que es NodeJS
+- Comprender el funcionamiento del entorno de ejecución
 
 ## :clipboard: Material
 
@@ -10,9 +11,11 @@ Consultar en la presentación, las diapositivas 10 al 16.
 
 ## Temas
 
-### Definición
+### I. Definición
 
-### Ciclo de vida
+[Documentación oficial de NodeJs](https://nodejs.org/en/about/)
+
+### II. Ciclo de vida
 
 El siguiente código contiene diferentes funciones que corresponden a cada uno de los ciclos de vida durante la ejecución de un proyecto en NodeJs.
 

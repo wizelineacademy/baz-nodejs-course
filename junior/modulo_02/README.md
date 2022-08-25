@@ -2,7 +2,8 @@
 
 ## :book: Objetivo
 
-Realizar la instalación de NodeJS y ejecutar nuestro primer programa
+- Realizar la instalación de NodeJS
+- Ejecutar nuestro primer programa
 
 ## :clipboard: Material
 
@@ -10,7 +11,7 @@ Consultar en la presentación, las diapositivas 18 al 21.
 
 ## Temas
 
-### Instalando NodeJs
+### I. Instalando NodeJs
 
 Descargue e instale NodeJs siguiendo las instrucciones descritas en la [documentación oficial](https://nodejs.org/es/download/).
 
@@ -21,9 +22,9 @@ node --version
 npm --version
 ```
 
-### Hola Mundo
+### II. Hola Mundo
 
-En coloque el siguiente código en un archivo .js
+En coloque el siguiente código en un archivo holaMundo.js
 
 ```js
 const http = require('http');
@@ -46,5 +47,5 @@ server.listen(port, hostname, () => {
 Ejecute el archivo con el comando
 
 ```bash
-node miArchivo.js
+node holaMundo.js
 ```
