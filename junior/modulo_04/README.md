@@ -1,4 +1,4 @@
-# Modulo 4: :bulb: Manipulación de Archivos
+# :bulb: Modulo 4: Manipulación de Archivos
 
 ## :book: Objetivo
 
@@ -90,3 +90,7 @@ fs.readdir(testFolder, (err, files) => {
   });
 });
 ```
+
+## :pencil2: Ejercicio
+
+1. [Listado de vehículos](exercise01.js)

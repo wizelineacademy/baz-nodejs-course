@@ -1,4 +1,4 @@
-# Modulo 3: :bulb: Node Shell y gestores de paquetes
+# :bulb: Modulo 3: Node Shell y gestores de paquetes
 
 ## :book: Objetivo
 

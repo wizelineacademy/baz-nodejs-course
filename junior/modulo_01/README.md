@@ -1,4 +1,4 @@
-# Modulo 1: :bulb: ¿Qué es NodeJS?
+# :bulb: Modulo 1: ¿Qué es NodeJS?
 
 ## :book: Objetivo
 

@@ -1,4 +1,4 @@
-# Modulo 2: :bulb: Configuración Inicial
+# :bulb: Modulo 2: Configuración Inicial
 
 ## :book: Objetivo
 

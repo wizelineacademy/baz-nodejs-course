@@ -1,0 +1,11 @@
+{
+  "name": "junior-course",
+  "version": "1.0.0",
+  "description": "Modulo para nivel junior",
+  "scripts": {},
+  "author": "Wizeline Academy",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.4.0"
+  }
+}
