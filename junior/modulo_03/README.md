@@ -19,7 +19,7 @@ Para ejecutar código javascript en linea, use el siguiente comando para acceder
 node
 ```
 
-Se puede ejecutar código de un archivo .js usando el siguiente comando
+Se puede ejecutar código de un archivo ```.js``` usando el siguiente comando
 
 ```bash
 node nombreDeMiArchivo.js

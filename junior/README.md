@@ -16,12 +16,13 @@ Este curso contempla los aspectos básicos que se deben conocer sobre el entorno
       1. NPM
       2. YARN
       3. Diferencias
-4. Manipulación de archivos
+4. [Manipulación de archivos](modulo_04/README.md)
+   1. CRUD
 5. Promesas
 6. Funciones asíncronas
 7. Module System
-8.  Emisores y buffer de eventos
-9.  REST
+8. Emisores y buffer de eventos
+9. REST
 
 ## :clipboard: Recursos externos
 

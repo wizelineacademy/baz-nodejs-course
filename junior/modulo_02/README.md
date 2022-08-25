@@ -24,7 +24,7 @@ npm --version
 
 ### II. Hola Mundo
 
-En coloque el siguiente código en un archivo holaMundo.js
+En coloque el siguiente código en un archivo ```holaMundo.js```
 
 ```js
 const http = require('http');
