@@ -8,7 +8,7 @@ Como parte del programa de cursos que el equipo de Wizeline Academy imparirá al
 
 ## Niveles del curso
 
-- Junior
+- [Junior](junior/)
 - Intermedio
 - Avanzado
 
