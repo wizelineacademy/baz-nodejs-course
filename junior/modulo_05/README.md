@@ -118,6 +118,71 @@ firstTask()
 
 ### Funciones asíncronas
 
+Se usan las palabras reservadas `async`y `await` para poder ejecutar una promesa como una función asíncrona
+
+```js
+const subTask = (message) =>
+  new Promise((resolve, reject) => {
+    if (message === '' || message === undefined) {
+      reject(new Error('Mensaje incorrecto'));
+    }
+    resolve('Mensaje correcto');
+  });
+
+const main = async (message) => {
+  try {
+    const response = await subTask(message);
+    console.log({ response });
+  } catch (e) {
+    console.log(e.toString());
+  }
+};
+
+main('Mensaje');
+main('');
+```
+
+Las funciones dentro del modulo `fs` también poseen una version asíncrona
+
+```js
+const fs = require('fs');
+
+const testFolder = '../testFolder/';
+const fileName = 'asyncFile.txt';
+
+const main = async () => {
+  try {
+    console.log('Inicia');
+    // Create
+    console.log('Crea');
+    const filePath = `${testFolder}${fileName}`;
+    await fs.writeFileSync(filePath, 'Curso de Node JS Junior');
+
+    // Read
+    console.log('Lee');
+    const content = await fs.readFileSync(filePath).toString();
+    console.log({ content });
+
+    // Update
+    console.log('Actualiza');
+    const newContent = '\nData updated by Wizeline Academy';
+    await fs.appendFileSync(filePath, newContent);
+    const newResponse = await fs.readFileSync(filePath).toString();
+    console.log({ newResponse });
+
+    // Delete
+    console.log('Borra');
+    await fs.unlinkSync(filePath);
+
+    console.log('Finaliza');
+  } catch (e) {
+    console.log(e.toString());
+  }
+};
+
+main();
+```
+
 ## :pencil2: Ejercicio
 
-1. [Listado de vehículos](exercise01.js)
+Modificar el ejercicio de los vehículos realizado el modulo 4 para cambiar las funciones síncronas por funciones asíncronas.

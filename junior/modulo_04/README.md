@@ -80,7 +80,15 @@ fs.unlink(`${testFolder}${fileName}`, (err) => {
 });
 ```
 
-#### 5. Listar contenido de un directorio
+#### 5. Crear directorios
+
+```js
+fs.mkdir('../myDir', { recursive: true }, (err) => {
+  if (err) throw err;
+});
+```
+
+#### 6. Listar contenido de un directorio
 
 ```js
 fs.readdir(testFolder, (err, files) => {
@@ -93,4 +101,6 @@ fs.readdir(testFolder, (err, files) => {
 
 ## :pencil2: Ejercicio
 
-1. [Listado de vehículos](exercise01.js)
+Crear un programa que, en base a un [archivo CSV](../resources/consumoGasolina2018.csv) que contiene información relacionada con el consumo de gasolina de una serie de vehículos, nos permita crear un archivo .json con el mismo contenido.
+
+Añadir un logger que registre los eventos.
