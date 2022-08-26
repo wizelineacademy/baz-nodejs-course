@@ -11,9 +11,9 @@ Consultar en la presentación, las diapositivas 18 al 21.
 
 ## :books: Temas
 
-### I. Instalando NodeJs
+### I. Instalando NodeJS
 
-Descargue e instale NodeJs siguiendo las instrucciones descritas en la [documentación oficial](https://nodejs.org/es/download/).
+Descargue e instale NodeJS siguiendo las instrucciones descritas en la [documentación oficial](https://NodeJS.org/es/download/).
 
 Una vez instalado, compruebe que todo este correcto ejecutando en una terminal los siguiente commandos y compruebe que no marque error.
 

@@ -185,4 +185,4 @@ main();
 
 ## :pencil2: Ejercicio
 
-Modificar el ejercicio de los vehículos realizado el modulo 4 para cambiar las funciones síncronas por funciones asíncronas.
+Realizar modificaciones en el ejercicio del modulo 4 para que funcione llamando funciones asíncronas.

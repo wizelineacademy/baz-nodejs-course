@@ -13,11 +13,11 @@ Consultar en la presentación, las diapositivas 10 al 16.
 
 ### I. Definición
 
-[Documentación oficial de NodeJs](https://nodejs.org/en/about/)
+[Documentación oficial de NodeJS](https://NodeJS.org/en/about/)
 
 ### II. Ciclo de vida
 
-El siguiente código contiene diferentes funciones que corresponden a cada uno de los ciclos de vida durante la ejecución de un proyecto en NodeJs.
+El siguiente código contiene diferentes funciones que corresponden a cada uno de los ciclos de vida durante la ejecución de un proyecto en NodeJS.
 
 ```js
 const fs = require('fs');

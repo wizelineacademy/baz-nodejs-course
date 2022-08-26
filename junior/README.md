@@ -25,7 +25,9 @@ Este curso contempla los aspectos básicos que se deben conocer sobre el entorno
       2. Promesa con retorno fallido
       3. Encadenamiento de promesas
    3. Funciones asíncronas
-6. Module System
+6. [Module System](modulo_06/README.md)
+   1. Creación de módulos
+   2. Importación de módulos
 7. Emisores y buffer de eventos
 8. REST
 
@@ -33,4 +35,4 @@ Este curso contempla los aspectos básicos que se deben conocer sobre el entorno
 
 - Presentación
 
-## Capston1e Project
+## Capstone Project
