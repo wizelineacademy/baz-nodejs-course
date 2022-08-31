@@ -13,9 +13,9 @@ Consultar en la presentación, las diapositivas 10 al 16.
 
 ### I. Definición
 
-[Documentación oficial de NodeJS](https://NodeJS.org/en/about/)
+[Sobre NodeJS](https://NodeJS.org/en/about/)
 
-### II. Ciclo de vida
+### II. Ciclo de vida y Bucle de eventos
 
 El siguiente código contiene diferentes funciones que corresponden a cada uno de los ciclos de vida durante la ejecución de un proyecto en NodeJS.
 
@@ -35,3 +35,9 @@ setImmediate(() => {
 
 console.log('end');
 ```
+
+## :mag: Para saber más
+
+[Historia de NodeJS](https://nodejs.dev/en/learn/a-brief-history-of-nodejs/)
+
+[Bucle de eventos](https://nodejs.dev/en/learn/the-nodejs-event-loop/)

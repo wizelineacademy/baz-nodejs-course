@@ -35,4 +35,8 @@ Este curso contempla los aspectos básicos que se deben conocer sobre el entorno
 
 - Presentación
 
+## Documentación oficial
+
+[Inicio rápido](https://nodejs.dev/en/learn/)
+
 ## Capstone Project

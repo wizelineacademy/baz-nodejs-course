@@ -13,7 +13,7 @@ Consultar en la presentación, las diapositivas 18 al 21.
 
 ### I. Instalando NodeJS
 
-Descargue e instale NodeJS siguiendo las instrucciones descritas en la [documentación oficial](https://NodeJS.org/es/download/).
+[Descargue](https://NodeJS.org/es/download/) e [instale](https://nodejs.dev/en/learn/how-to-install-nodejs/) NodeJS siguiendo las instrucciones descritas en la documentación oficial
 
 Una vez instalado, compruebe que todo este correcto ejecutando en una terminal los siguiente commandos y compruebe que no marque error.
 
@@ -24,7 +24,7 @@ npm --version
 
 ### II. Hola Mundo
 
-En coloque el siguiente código en un archivo ```holaMundo.js```
+En coloque el siguiente código en un archivo `holaMundo.js`
 
 ```js
 const http = require('http');
@@ -41,7 +41,6 @@ const server = http.createServer((_req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Servidor escuchando en http://${hostname}:${port}/`);
 });
-
 ```
 
 Ejecute el archivo con el comando
@@ -49,3 +48,9 @@ Ejecute el archivo con el comando
 ```bash
 node holaMundo.js
 ```
+
+## :mag: Para saber más
+
+[Diferencias entre NodeJS y el navegador](https://nodejs.dev/en/learn/differences-between-nodejs-and-the-browser/)
+
+[Ambientes de desarrollo](https://nodejs.dev/en/learn/nodejs-the-difference-between-development-and-production/)

@@ -54,6 +54,18 @@ const { getParseDate } = require('./module01');
 console.log(`La fecha actual es ${getParseDate()}`);
 ```
 
+## Para saber más
+
+[Exponiendo funcionalidades usando exports](https://nodejs.dev/en/learn/expose-functionality-from-a-nodejs-file-using-exports/)
+
 ## :pencil2: Ejercicio
 
-Realizar modificaciones en el ejercicio del modulo 5 para que las funciones sean importadas mediante módulos.
+En base al código resultante del modulo 5, realizar la modularización del proyecto contemplando los siguientes archivos propuestos
+
+1. index.js
+2. constants.js
+3. logger.js
+4. dates.js
+5. vehicles.js
+
+La propuesta de los módulos resultantes es libre

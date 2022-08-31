@@ -48,3 +48,21 @@ for (let i = 0; i < 10; i += 1) {
 
 console.log(users);
 ```
+
+## :mag: Para saber más
+
+[Como leer variables de entorno](https://nodejs.dev/en/learn/how-to-read-environment-variables-from-nodejs/)
+
+[Como usar NodeJS REPL](https://nodejs.dev/en/learn/how-to-use-the-nodejs-repl/)
+
+[Como leer argumentos enviados por la linea de comandos](https://nodejs.dev/en/learn/nodejs-accept-arguments-from-the-command-line/)
+
+[Introducción al gestor de paquetes](https://nodejs.dev/en/learn/an-introduction-to-the-npm-package-manager/)
+
+[Como instalar paquetes](https://nodejs.dev/en/learn/how-to-use-or-execute-a-package-installed-using-npm/)
+
+[Guía del package.json](https://nodejs.dev/en/learn/the-package-json-guide/)
+
+[Guía del package-lock.json](https://nodejs.dev/en/learn/the-package-lock-json-file/)
+
+[Dependencias y dependencias de desarrollo](https://nodejs.dev/en/learn/npm-dependencies-and-devdependencies/)

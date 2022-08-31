@@ -118,7 +118,7 @@ firstTask()
 
 ### Funciones asíncronas
 
-Se usan las palabras reservadas `async`y `await` para poder ejecutar una promesa como una función asíncrona
+Se usan las palabras reservadas `async` y `await` para poder ejecutar una promesa como una función asíncrona
 
 ```js
 const subTask = (message) =>
@@ -183,6 +183,14 @@ const main = async () => {
 main();
 ```
 
+## Para saber más
+
+[Callbacks](https://nodejs.dev/en/learn/javascript-asynchronous-programming-and-callbacks/)
+
+[Entendiendo las promesas de JavaScript](https://nodejs.dev/en/learn/understanding-javascript-promises/)
+
+[Async & Await](https://nodejs.dev/en/learn/modern-asynchronous-javascript-with-async-and-await/)
+
 ## :pencil2: Ejercicio
 
-Realizar modificaciones en el ejercicio del modulo 4 para que funcione llamando funciones asíncronas.
+En base al código resultante del ejercicio del modulo 4, realizar las modificaciones necesarias para que las acciones relacionadas con la manipulación de archivos y funciones que requieran ser asíncronas usen los conceptos de Promesas o Async/Await

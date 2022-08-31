@@ -99,8 +99,21 @@ fs.readdir(testFolder, (err, files) => {
 });
 ```
 
+## :mag: Para saber más
+
+[Directorio de archivos](https://nodejs.dev/en/learn/nodejs-file-paths/)
+
+[Trabajar con directorios](https://nodejs.dev/en/learn/working-with-folders-in-nodejs/)
+
 ## :pencil2: Ejercicio
 
-Crear un programa que, en base a un [archivo CSV](../resources/consumoGasolina2018.csv) que contiene información relacionada con el consumo de gasolina de una serie de vehículos, nos permita crear un archivo .json con el mismo contenido.
+Usando el [archivo CSV](../resources/consumoGasolina2018.csv), que contiene información relacionada con el consumo de gasolina de una serie de vehículos, realizar un programa que realize lo siguiente:
 
-Añadir un logger que registre los eventos.
+1. Leer el archivo
+2. Crear un array de objetos de tipo vehículo (El objeto vehículo es de libre interpretación)
+3. Crear un archivo `vehiculos.json` que contenga el array
+4. Obtener los registros de todos lo vehículos de marca FORD e imprimir la cantidad de elementos encontrados
+5. Cree un archivo `service.log` en donde se almacenen los siguientes eventos en el momento que se ejecuten
+   1. Inicio del programa
+   2. Final del programa
+   3. Errores
