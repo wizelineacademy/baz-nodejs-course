@@ -13,9 +13,6 @@ Este curso contempla los aspectos básicos que se deben conocer sobre el entorno
 3. [Node Shell y Gestor de paquetes](modulo_03/README.md)
    1. Node Shell
    2. Gestores de paquetes
-      1. NPM
-      2. YARN
-      3. Diferencias
 4. [Manipulación de archivos](modulo_04/README.md)
    1. CRUD
 5. [Funciones síncronas y asíncronas](modulo_05/README.md)
@@ -28,7 +25,12 @@ Este curso contempla los aspectos básicos que se deben conocer sobre el entorno
 6. [Module System](modulo_06/README.md)
    1. Creación de módulos
    2. Importación de módulos
-7. Emisores y buffer de eventos
+7. [Emisores de eventos y buffers](modulo_7/README.md)
+   1. Eventos
+      1. Evento simple
+      2. Evento con datos de entrada
+      3. Evento de error
+   2. Buffers
 8. REST
 
 ## :clipboard: Recursos externos

@@ -54,7 +54,7 @@ const { getParseDate } = require('./module01');
 console.log(`La fecha actual es ${getParseDate()}`);
 ```
 
-## Para saber más
+## :mag: Para saber más
 
 [Exponiendo funcionalidades usando exports](https://nodejs.dev/en/learn/expose-functionality-from-a-nodejs-file-using-exports/)
 

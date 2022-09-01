@@ -101,7 +101,7 @@ fs.readdir(testFolder, (err, files) => {
 
 ## :mag: Para saber más
 
-[Directorio de archivos](https://nodejs.dev/en/learn/nodejs-file-paths/)
+[Rutas de archivos](https://nodejs.dev/en/learn/nodejs-file-paths/)
 
 [Trabajar con directorios](https://nodejs.dev/en/learn/working-with-folders-in-nodejs/)
 

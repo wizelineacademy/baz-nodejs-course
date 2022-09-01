@@ -12,7 +12,7 @@ Consultar en la presentación, las diapositivas
 
 ## :books: Temas
 
-### Funciones síncronas
+### I. Funciones síncronas
 
 El siguiente es un ejemplo de una función síncrona
 
@@ -28,9 +28,9 @@ myTimer();
 console.log('Fin del programa');
 ```
 
-### Promesas
+### II. Promesas
 
-#### Promesa simple
+#### 1. Promesa simple
 
 El ejemplo anterior se puede convertir en una promesa añadiendo lo siguiente
 
@@ -48,9 +48,9 @@ myTimerPromise.then(() => {
 });
 ```
 
-#### Promesa con retorno fallido
+#### 2. Promesa con retorno fallido
 
-Las promesas pueden manejar el manejo de errores de la siguiente forma
+Para marca un retorno de promesa como fallido o con errores, se usa la siguiente estructura
 
 ```js
 const subTask = (message) =>
@@ -70,7 +70,7 @@ subTask('')
   .catch((err) => console.error(`Error en la sub tarea ${err}`));
 ```
 
-#### Encadenamiento de promesas
+#### 3. Encadenamiento de promesas
 
 Se pueden encadenar promesas para que al termino de una de ellas se ejecute la siguiente
 
@@ -116,7 +116,7 @@ firstTask()
   .finally(() => console.log('Terminaron tareas'));
 ```
 
-### Funciones asíncronas
+### III. Funciones asíncronas
 
 Se usan las palabras reservadas `async` y `await` para poder ejecutar una promesa como una función asíncrona
 
@@ -183,7 +183,7 @@ const main = async () => {
 main();
 ```
 
-## Para saber más
+## :mag: Para saber más
 
 [Callbacks](https://nodejs.dev/en/learn/javascript-asynchronous-programming-and-callbacks/)
 
