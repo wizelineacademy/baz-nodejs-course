@@ -4,6 +4,7 @@
 
 - Identificar el concepto de evento
 - Crear emisores de eventos
+- Explicar que es un buffer
 
 ## :clipboard: Material
 

@@ -25,13 +25,15 @@ Este curso contempla los aspectos básicos que se deben conocer sobre el entorno
 6. [Module System](modulo_06/README.md)
    1. Creación de módulos
    2. Importación de módulos
-7. [Emisores de eventos y buffers](modulo_7/README.md)
+7. [Emisores de eventos y buffers](modulo_07/README.md)
    1. Eventos
       1. Evento simple
       2. Evento con datos de entrada
       3. Evento de error
    2. Buffers
-8. REST
+8. [REST](./modulo_08/README.md)
+   1. REST
+   2. Cliente HTTP/HTTPS
 
 ## :clipboard: Recursos externos
 
